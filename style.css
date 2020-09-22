@@ -1,0 +1,115 @@
+body{
+  margin:0;
+  padding:0;
+  background:#000011;
+  line-height:150%;
+}
+*{
+  color:white;
+  text-decoration:none;
+  list-style:none;
+}
+#top-nav{
+  text-align: center;
+  margin:0 auto;
+}
+ul{
+  position:relative;
+
+}
+.title{
+  /*text-align: ;*/
+  margin-bottom: 50px;
+  border-bottom:solid 5px white;
+}
+.site-width{
+  width:1000px;
+  margin:0 auto;
+}
+
+#top-img{
+  width:100%;
+  margin-bottom: 20px;
+}
+header{
+  width:1000px;
+  margin:0 auto;
+  overflow:hidden;
+}
+main{
+  width:1000px;
+  margin:0 auto;
+}
+h1{
+  text-align: center;
+  font-size:70px;
+}
+ul li{
+  float:left;
+  margin:0 10px;
+  margin-bottom:10px;
+  padding:5px 5px;
+}
+.title_home{
+  font-size: 30px;
+   border-bottom: solid 5px #CCCCCC;
+}
+.panel{
+  background: #222222;
+  padding-top:1px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+/*  margin-left:20px;
+  border:2px solid #eee;
+  border-color:#444444;
+  margin:auto auto;
+  float:left;
+  width:30%;
+  min-height: 400px;
+  margin-bottom: 20px;
+*/
+
+
+/*フッター*/
+footer{
+  padding:10px;
+  margin-bottom: 1px;
+  text-align: center;
+  font-size:15px;
+  background: #000066;
+  position: relative;
+}
+
+/*   コンタクトフォーム    */
+form{
+  margin:0 auto;
+  overflow: hidden;
+  /*background: #222222;
+  padding:50px;*/
+  width:70%;
+}
+.title_contact{
+  text-align: center;
+  text-decoration:none;
+}
+.input_width{
+  width:100%;
+}
+  input,input[type="submit"],textarea{
+  background:#CCCCCC;
+  color:black;
+  padding:10px;
+}
+input[type="submit"]{
+  float:right;
+  margin-bottom: 15px;
+}
+.form_group{
+    margin-bottom:15px;
+}
+.err_msg{
+  color:#FFFF00;
+}
